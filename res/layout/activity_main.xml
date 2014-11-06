@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/tile_black_repeat"
+    tools:context=".MainMenuActivity" >
+
+    <Button
+        android:id="@+id/practiceButton"
+        style="@style/ButtonTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myCardsBtn"
+        android:layout_marginTop="@dimen/main_screen_btn_margin"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/navigation_btn"
+        android:text="Practice" />
+
+    <Button
+        android:id="@+id/myCardsBtn"
+        style="@style/ButtonTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fgButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_screen_btn_margin"
+        android:background="@drawable/navigation_btn"
+        android:text="My Cards" />
+
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="@dimen/main_screen_image_length"
+        android:layout_height="@dimen/main_screen_image_length"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher_web" />
+
+    <Button
+        android:id="@+id/fgButton"
+        style="@style/ButtonTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerImage"
+        android:layout_marginTop="@dimen/main_screen_btn_margin"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/navigation_btn"
+        android:singleLine="true"
+        android:text="@string/flashCards" />
+
+</RelativeLayout>

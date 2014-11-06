@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="btn_padding">20dp</dimen>
+    
+    <dimen name="main_screen_btn_margin">30dp</dimen>
+    <dimen name="main_screen_image_distance_from_top">30dp</dimen>
+    <dimen name="main_screen_image_length">300dp</dimen>
+    
+    <dimen name="ic_action_bar">40dp</dimen>
+    <dimen name="ic_action_bar_flash_card_width">50dp</dimen>
+    <dimen name="ic_action_bar_flash_card_height">30dp</dimen>
+    
+    
+    <dimen name="practice_answer_image_length">300dp</dimen>
+    
+    <dimen name="action_bar_horizontal_margin">10dp</dimen>
+
+</resources>

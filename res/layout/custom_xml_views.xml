@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+
+This xml file's purpose is to stylize and provide ids for LinearLayout Views that are created programmatically
+
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigation_btn"
+        style="@style/SmallButtonTextStyle"
+        android:text="@string/submit"/>
+    
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigation_btn"
+        style="@style/SmallButtonTextStyle"
+        android:text="@string/cancel"/>
+    
+    <Button
+        android:id="@+id/createNewBtn"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigation_btn"
+        style="@style/SmallButtonTextStyle"
+        android:text="Create Deck"/>
+    
+    <Button
+        android:id="@+id/deleteOldBtn"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigation_btn"
+        style="@style/SmallButtonTextStyle"
+        android:text="Delete Deck"/>
+    
+    <Button
+        android:id="@+id/viewListBtn"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:background="@drawable/navigation_btn"
+        style="@style/SmallButtonTextStyle"
+        android:text="View Deck"/>
+    
+    <Button
+        android:id="@+id/practiceBtn"
+        style="@style/ButtonTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/navigation_btn"
+        android:text="Practice" />
+    
+    <TextView
+        android:id="@+id/gameOverText"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <ImageView
+        android:id="@+id/imageQ"
+        android:contentDescription="FG Group"
+        android:layout_width="125dip"
+        android:layout_height="125dip"
+        android:layout_gravity="center" />
+    
+
+</LinearLayout>

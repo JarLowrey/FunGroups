@@ -1,0 +1,64 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tile_black"
+    >
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    android:id="@+id/practice_intro">
+
+	    <RadioGroup
+	        android:id="@+id/answerGroup"
+	        android:layout_width="wrap_content"
+		    android:layout_height="wrap_content">
+	        
+			<RadioButton
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_margin="5dip"/>
+
+			<RadioButton
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_margin="5dip"/>
+
+			<RadioButton
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_margin="5dip"/>
+
+			<RadioButton
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_margin="5dip"/>
+		
+		</RadioGroup>
+
+		<Button
+		    android:id="@+id/testSubmitBtn"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/navigation_btn"
+            style="@style/ButtonTextStyle"
+		    android:text="@string/submit" />
+
+		<TextView
+		    android:id="@+id/qRemain"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:layout_gravity="center"
+		    android:textColor="@android:color/white"
+		    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	</LinearLayout>
+</ScrollView>

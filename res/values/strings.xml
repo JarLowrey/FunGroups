@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fun Groups!</string>
+
+    <color name="dark_yellow">#736D22</color>
+    <color name="light_yellow">#E1F505</color>
+    <color name="dark_red">#960303</color>
+    <color name="red">#f50000</color>
+    <color name="light_red">#FF2659</color>
+    <color name="light_blue">#26C9FF</color>
+    <color name="blue">#0015FC</color>
+    <color name="dark_blue">#23118C</color>
+    <color name="light_gray">#B0B0B0</color>
+    <color name="gray">#919191</color>
+    <color name="dark_gray">#4D4D4D</color>
+
+    <string-array name="fg_array">
+		<item >acetal</item>
+		<item >acetophenone</item>
+		<item >acyl cyanide</item>
+		<item >acyl halide</item>
+		<item >acyloin</item>
+		<item >alcohol</item>
+		<item >aldehyde</item>
+		<item >aldol</item>
+		<item >aldoxime</item>
+		<item >aldoxime ether</item>
+		<item >alkane</item>
+		<item >alkene</item>
+		<item >alkoxide</item>
+		<item >alkyne</item>
+		<item >allene</item>
+		<item >amidate</item>
+		<item >amide</item>
+		<item >amidine</item>
+		<item >amidrazone</item>
+		<item >aminal</item>
+		<item >amine</item>
+		<item >amine oxide</item>
+		<item >anhydride</item>
+		<item >aniline</item>
+		<item >anisole</item>
+		<item >aromatic hydrocarbon</item>
+		<item >azide</item>
+		<item >benzaldehyde</item>
+		<item >benzenesulfonic acid</item>
+		<item >benzoic acid</item>
+		<item >borane</item>
+		<item >carbamate</item>
+		<item >carbamic acid</item>
+		<item >carbamic acyl halide</item>
+		<item >carbodiimide</item>
+		<item >carbonate</item>
+		<item >carboxylic acid</item>
+		<item >cumulene</item>
+		<item >cyanate</item>
+		<item >diazonium salt</item>
+		<item >diimide</item>
+		<item >disulfide</item>
+		<item >enamine</item>
+		<item >enol</item>
+		<item >enol ether</item>
+		<item >epoxide</item>
+		<item >ester</item>
+		<item >ether</item>
+		<item >guanidine</item>
+		<item >halide</item>
+		<item >hemiacetal</item>
+		<item >hemiaminal</item>
+		<item >hemiketal</item>
+		<item >hydrate</item>
+		<item >hydrazide</item>
+		<item >hydrazine</item>
+		<item >hydrazone</item>
+		<item >hydroperoxide</item>
+		<item >hydroxamic acid</item>
+		<item >hydroxylamine</item>
+		<item >imide</item>
+		<item >imidoester</item>
+		<item >imidoyl halide</item>
+		<item >imine</item>
+		<item >isocyanate</item>
+		<item >isocyanide</item>
+		<item >isourea</item>
+		<item >ketal</item>
+		<item >ketal</item>
+		<item >ketene</item>
+		<item >ketene</item>
+		<item >ketenimine</item>
+		<item >ketone</item>
+		<item >ketoxime</item>
+		<item >ketoxime ether</item>
+		<item >lactam</item>
+		<item >lactone</item>
+		<item >nitrate</item>
+		<item >nitrile</item>
+		<item >nitrite</item>
+		<item >nitro</item>
+		<item >nitroso</item>
+		<item >o xylene</item>
+		<item >orthocarbonate</item>
+		<item >orthoester</item>
+		<item >oxime</item>
+		<item >peracid</item>
+		<item >peroxide</item>
+		<item >phenol</item>
+		<item >semicarbazide</item>
+		<item >semicarbazone</item>
+		<item >styrene</item>
+		<item >thial</item>
+		<item >thioether</item>
+		<item >thiol</item>
+		<item >thione</item>
+		<item >toluene</item>
+		<item >urea</item>
+    </string-array>
+
+    <string name="flashCards">Flash Cards</string>
+    <string name="exit">Exit</string>
+    <string name="rxn_mech">Reaction Mechanisms</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="switch_order">Switch flash card order </string>
+    <string name="title_activity_practice_test">Practice Test</string>
+    <string name="DB_NAME">data</string>
+    <color name="transparent">#00000000</color>
+    <string name="title_activity_flashcards">Flash Cards</string>
+
+</resources>
