@@ -1,0 +1,47 @@
+#Android .gitignore
+
+# built application files
+Source/*.apk
+Source/*.ap_
+
+# files for the dex VM
+Source/*.dex
+
+# Java class files
+*.class
+
+# generated files
+Source/bin/
+Source/gen/
+
+# Local configuration file (sdk path, etc)
+Source/local.properties
+
+#Eclipse.gitignore:
+
+Source/*.pydevproject
+Source/.project
+Source/.metadata
+Source/bin/**
+Source/tmp/**
+Source/tmp/**/*
+Source/*.tmp
+Source/*.bak
+Source/*.swp
+Source/*~.nib
+Source/ocal.properties
+Source/.classpath
+Source/.settings/
+Source/.loadpath
+
+# External tool builders
+Source/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+Source/*.launch
+
+# CDT-specific
+Source/.cproject
+
+# PDT-specific
+Source/.buildpath
